@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "test": "mocha"
+  },
   "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.10",
     "fs-extra": "^11.1.1",
     "ganache-cli": "^6.12.2",
     "mocha": "^10.2.0",
